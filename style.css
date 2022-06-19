@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    display: flex;
+    background: #141519;
+    align-items: center;
+    height: auto;
+    height: 100vh;
+}
+
+.Box {
+    background: #1f2630;
+    border-radius: 25px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    width: 320px;
+    height: 300px;
+}
+
+
+
+.Grade {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Submit {
+    align-self: center;
+    text-align: center;
+    background: #fc7613;
+    color: white;
+    padding: 7px;
+    width: 90%;
+    border-radius: 15px;
+    font-family: Calibri;
+}
+
+#One, #Two, #Three, #Four, #Five {
+    background: #272e38;
+    color: #747c87;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    width: 40px;
+    font-family: Calibri;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Star {
+    background: #232f3b;
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.Title {
+    color: white;
+    font-size: 1.5em;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+.Description {
+    color: #747c87;
+    font-family: Calibri;
+}
+
+#One:hover, #Two:hover, #Three:hover, #Four:hover, #Five:hover {
+    background: #7a8899;
+    color: white;
+}
+
+#One:active, #Two:active, #Three:active, #Four:active, #Five:active {
+    background: #fd7612;
+    color: white;
+}
+
+.Submit:active {
+    background: white;
+    color: #fd7612
+}
+
+.thanks {
+    text-align: center;
+}
+
+div[id="Grade-thanks"] {
+    background:#272e38;
+    width: 50%;
+    color: #fd7612;
+    font-family: Calibri;
+    border-radius: 15px;
+    text-align: center;
+    padding: 7px;
+    align-self: center;
+}
